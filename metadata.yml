@@ -1,0 +1,20 @@
+name: convert
+workflow_authors:
+ - Aaron Virshup: Autodesk Research
+contributors:
+ - "@avirshup"
+description: Translate a molecule between a variety of file formats, chemical ids, and python objects.
+methods: |
+  This is a utility workflow for transforming molecular data. It provides ways to interconvert
+  between the following forms of chemical information:
+    - Chemical identifiers (SMILES, IUPAC names, inCHI identifiers, PDB ids)
+    - File formats (PDB, mmCIF, XYZ, SDF, mol2)
+    - Python objects (MDT, OpenBabel, BioPython parmED, openMM, PySCF)
+  `molflow` will call this workflow automatically to translate user input before running
+   your requested workflow; this workflow will therefore be updated frequently to accomodate
+   additional functionality.
+citations:
+  - molsim.bionano.autodesk.com
+keywords:
+  - utility
+  - file-formats
